@@ -28,13 +28,13 @@ _**My Strength Blog** is Is a site where users will be able to track their power
 
 ## MVP
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **My Strength Blog** MVP Will give users the ability to add, edit, and delete workouts. They'll be able to post sessions and create a collection of posts of past workouts._
 
 <br>
 
 ### Goals
 
-- _Track sessions,_
+- _Track sessions._
 - _Create sessions._
 - _Add, edit and make notes._
 
