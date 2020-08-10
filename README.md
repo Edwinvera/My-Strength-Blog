@@ -47,6 +47,7 @@ _The **My Strength Blog** MVP Will give users the ability to add, edit, and dele
 | :--------------: | :----------------------------------------- |
 |      React       | _Use react to organize sections._          |
 |   React Router   | _Smooth transitions between pages._        |
+|   Ruby on Rails  | _Help build the backend and frontend._     |
 
 <br>
 
@@ -72,9 +73,17 @@ src
       |__ Header.jsx
       |___Login.jsx
       |___Register.jsx
-      |___AddEditAcc
-      |___LogSession
-|__ services/
+      |___AddEditAcc.jsx
+      |___Str_Dropdown.jsx
+      |___Acc_Dropdown.jsx
+      |___Logout_Btn.jsx
+|__ screens/
+      |__ Main_Login.jsx
+      |__ Register.jsx
+      |__ Create_Post.jsx
+      |__ Add_Accessory.jsx
+      |__ Edit_Posts.jsx
+      |__ User_Posts.jsx
 
 ```
 
@@ -84,11 +93,15 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|    Login     | functional |   y   |   n   | _The login will allow user to sign in to their account._         |
-|   Register   | functional |   y   |   n   | _The register component will allow new users start an account._  |
-|  AddEditAcc  | functional |   y   |   y   | _This will let the user add and edit accessory._                 |
-|  LogSession  | functional |   y   |   y   | _This will allow the user to post a new session onto their blog._|
+|    Header    | class |   n   |   n   | _The header will contain the navigation and logo._               |
+|    Login     | class |   y   |   n   | _The login will allow user to sign in to their account._         |
+|   Register   | class |   y   |   n   | _The register component will allow new users start an account._  |
+|  AddEditAcc  | class |   y   |   y   | _This will let the user add and edit accessory._                 |
+|  Str_Dropdown| class |   y   |   y   | _Will hold opitons for choosing main movement for that day._.    |
+|  Acc_Dropdown| class |   y   |   y   | _Will hold opitons for choosing accessory movement for that day._|
+|  Logout_Btn  | class |   y   |   y   | _Give use ability to logout._                                    |
+|  Profile_Btn | class |   y   |   y   | _Give use ability to logout._                                    |
+
 
 #### Time Estimates
 
