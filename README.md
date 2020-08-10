@@ -123,7 +123,7 @@ src
 
 #### ERD Model
 
-https://imgur.com/uahN4nk
+https://imgur.com/GSecpS6
 
 ## Post-MVP
 
