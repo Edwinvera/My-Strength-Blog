@@ -21,14 +21,12 @@ A website that allows users to track and log workouts. Users will also be able t
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**My Strength Blog** is Is a site where users will be able to track their powerlifting sessions and add notes and reflections on previous training sessions. Users wil lalso have the ability to add custom exercises._
 
 
 <br>
 
 ## MVP
-
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
 _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
@@ -36,25 +34,18 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- _Track sessions,_
+- _Create sessions._
+- _Add, edit and make notes._
 
 <br>
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
-
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      React       | _Lorem ipsum dolor sit amet, consectetur._ |
 |   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
 
 <br>
 
@@ -66,22 +57,22 @@ https://whimsical.com/4yVzEa3H5938treyCEY3m7
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+https://whimsical.com/5tgWLq6cct2YBse3Dy6fCi
 
-#### Component Hierarchy
-
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
+#### Component Hierarchy 
 
 ``` structure
 
 src
 |__ assets/
-      |__ fonts
-      |__ graphics
       |__ images
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |___Login.jsx
+      |___Register.jsx
+      |___AddEditAcc
+      |___LogSession
 |__ services/
 
 ```
@@ -93,10 +84,10 @@ src
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Login     | functional |   y   |   n   | _The login will allow user to sign in to their account._         |
+|   Register   | functional |   y   |   n   | _The register component will allow new users start an account._  |
+|  AddEditAcc  | functional |   y   |   y   | _This will let the user add and edit accessory._                 |
+|  LogSession  | functional |   y   |   y   | _This will allow the user to post a new session onto their blog._|
 
 #### Time Estimates
 
@@ -104,11 +95,13 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Setup Backend       |    H     |     8 hrs      |     0 hrs     |    0 hrs    |
+| Setup JSON          |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
+| Setup Components    |    H     |     24 hrs     |     0 hrs     |    0 hrs    |
+| Setup Frontend CRUD |    H     |     12 hrs     |     0 hrs     |    0 hrs    |
+| Styling             |    M     |     12 hrs     |     0 hrs     |    0 hrs    |
+| Testing             |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
+| Total Time          |          |     66 hrs     |     0 hrs     |    0 hrs    |
 
 <br>
 
@@ -120,7 +113,8 @@ https://imgur.com/KgMduRe
 
 ## Post-MVP
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- Retrieve metrics like total volume/tonnage, total reps, and total sets.
+- Be able to rate sessions using an RPE scale and get a representation or average across workouts.
 
 ***
 
