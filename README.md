@@ -35,8 +35,9 @@ _The **My Strength Blog** MVP Will give users the ability to add, edit, and dele
 ### Goals
 
 - _Track sessions._
-- _Create sessions._
+- _Add, edit, and delete sessions._
 - _Add, edit and make notes._
+- _Create custom exercises._
 
 <br>
 
@@ -44,8 +45,8 @@ _The **My Strength Blog** MVP Will give users the ability to add, edit, and dele
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _Use react to organize sections._          |
+|   React Router   | _Smooth transitions between pages._        |
 
 <br>
 
