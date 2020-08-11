@@ -38,6 +38,15 @@ class MovementsController < ApplicationController
     @movement.destroy
   end
 
+  # PUT /movements/1/muscles/2
+  def add_movement
+    @movement = Movement.find(params[:id])
+    @muscle = Muscle.find(params[:muscle_id])
+    @movement.muscles << @muscle
+
+    render json: @movement, include: :muscles
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_movement
