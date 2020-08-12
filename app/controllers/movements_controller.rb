@@ -1,6 +1,6 @@
 class MovementsController < ApplicationController
   before_action :set_movement, only: [:show, :update, :destroy]
-  # before_action :authorize_request, only: [:create, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /movements
   def index

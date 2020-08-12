@@ -71,7 +71,7 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
-      |___Login.jsx
+      |___Main.jsx
       |___Register.jsx
       |___AddEditAcc.jsx
       |___Str_Dropdown.jsx
@@ -109,13 +109,13 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Setup Backend       |    H     |     8 hrs      |     0 hrs     |    0 hrs    |
+| Setup Backend       |    H     |     8 hrs      |     24 hrs     |    24 hrs    |
 | Setup JSON          |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
 | Setup Components    |    H     |     24 hrs     |     0 hrs     |    0 hrs    |
-| Setup Frontend CRUD |    H     |     12 hrs     |     0 hrs     |    0 hrs    |
+| Setup Frontend CRUD |    H     |     12 hrs     |     8 hrs     |    8 hrs    |
 | Styling             |    M     |     12 hrs     |     0 hrs     |    0 hrs    |
 | Testing             |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
-| Total Time          |          |     66 hrs     |     0 hrs     |    0 hrs    |
+| Total Time          |          |     66 hrs     |     32 hrs     |    32 hrs    |
 
 <br>
 
