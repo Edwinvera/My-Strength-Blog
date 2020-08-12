@@ -1,5 +1,6 @@
 class MovementsController < ApplicationController
   before_action :set_movement, only: [:show, :update, :destroy]
+  # before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /movements
   def index
@@ -39,7 +40,7 @@ class MovementsController < ApplicationController
   end
 
   # PUT /movements/1/muscles/2
-  def add_movement
+  def add_muscle
     @movement = Movement.find(params[:id])
     @muscle = Muscle.find(params[:muscle_id])
     @movement.muscles << @muscle
