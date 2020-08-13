@@ -12,14 +12,15 @@ function App() {
   }, [])
 
   const verify = async () => {
-    const userFData = await verifyUser();
-    setCurrentUser(userFData);
+    const userData = await verifyUser();
+    setCurrentUser(userData);
   }
 
   return (
     <div className="App">
       <Header
         currentUser={currentUser}
+        setCurrentUser={setCurrentUser}
       />
       <Main
         setCurrentUser={setCurrentUser}
