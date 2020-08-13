@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <h1>My Strength Blog</h1>
-      <Link to= '/login'>Login/Register</Link>
+      <Link to= '/login'>Login</Link>
     </header>
   )
 }
