@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :muscles
+  resources :muscles, only: :index
   resources :movements
   resources :users
   post '/auth/login', to: 'authentication#login'

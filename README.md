@@ -71,8 +71,8 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |___Login.jsx
       |___Main.jsx
-      |___Register.jsx
       |___AddEditAcc.jsx
       |___Str_Dropdown.jsx
       |___Acc_Dropdown.jsx
