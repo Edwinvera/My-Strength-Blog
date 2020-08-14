@@ -29,7 +29,7 @@ export default function Header(props) {
       {
         props.currentUser && (
           <>
-            <Link to="/movements">Add Session</Link>
+            <Link to="/movements">Add Movement</Link>
           </>
         )
       }

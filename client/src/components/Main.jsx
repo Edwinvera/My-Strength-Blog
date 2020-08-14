@@ -4,7 +4,8 @@ import Login from './Login';
 import Register from './Register';
 import { readAllMovements } from '../services/movements';
 import ShowMovements from './ShowMovements';
-import CreateSession from './CreateSession';
+import CreateMovement from './CreateMovement';
+import MovementDetail from './MovementDetail';
 
 export default function Main(props) {
   const { setCurrentUser } = props;
@@ -42,11 +43,16 @@ export default function Main(props) {
         />
       )} />
 
-      <Route path='/movements/new' render={() => (
-        <CreateSession
+      <Route path='/movements/new' render={(props) => (
+        <CreateMovement
           {...props}
           setMovements={setMovements}
           movements={movements}
+        />
+      )} />
+      <Route path='/movements/:id' render={(props) => (
+        <MovementDetail
+          {...props}
         />
       )} />
     </main>

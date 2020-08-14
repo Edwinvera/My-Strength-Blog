@@ -1,6 +1,6 @@
 class MovementsController < ApplicationController
   before_action :set_movement, only: [:show, :update, :destroy]
-  before_action :authorize_request, only: [:create, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy, :add_muscle]
 
   # GET /movements
   def index
@@ -11,12 +11,13 @@ class MovementsController < ApplicationController
 
   # GET /movements/1
   def show
-    render json: @movement
+    render json: @movement, include: :muscles
   end
 
   # POST /movements
   def create
     @movement = Movement.new(movement_params)
+    @movement.user = @current_user
 
     if @movement.save
       render json: @movement, status: :created, location: @movement

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { postMovement } from '../services/movements';
 
-export default function CreateSession(props) {
+export default function CreateMovement(props) {
   const [formData, setFormData] = useState({
     name: ""
   })
@@ -14,7 +14,7 @@ export default function CreateSession(props) {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const newMovement = await postMovement(formData)
-    props.setFoods([
+    props.setMovements([
       ...props.movements,
       newMovement
     ])

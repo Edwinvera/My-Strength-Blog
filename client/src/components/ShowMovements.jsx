@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function ShowMovements(props) {
   return (
     <div>
-      <h3>Add Powerlift Movement</h3>
+      <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
         <p key={lifts.id}>{lifts.name}</p>
       ))}

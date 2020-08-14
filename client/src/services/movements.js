@@ -20,7 +20,7 @@ export const putMovement = async (id, movementData) => {
   return resp.data;
 }
 
-export const destroyMovement = async (id, movementData) => {
+export const destroyMovement = async (id) => {
   const resp = await api.delete(`/movements/${id}`);
   return resp;
 }
