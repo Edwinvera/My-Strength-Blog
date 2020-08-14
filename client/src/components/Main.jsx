@@ -44,7 +44,9 @@ export default function Main(props) {
 
       <Route path='/movements/new' render={() => (
         <CreateSession
-          ShowMovements={setMovements}
+          {...props}
+          setMovements={setMovements}
+          movements={movements}
         />
       )} />
     </main>
