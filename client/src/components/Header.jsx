@@ -25,6 +25,14 @@ export default function Header(props) {
             <Link to='/login'>Login</Link>
         )
       }
+      <br/>
+      {
+        props.currentUser && (
+          <>
+            <Link to="/movements">Add Session</Link>
+          </>
+        )
+      }
     </header>
   )
 }
