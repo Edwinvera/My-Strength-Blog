@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Route } from 'react-router-dom';
+import { readAllMovements } from '../services/movements';
 import Login from './Login';
 import Register from './Register';
-import { readAllMovements } from '../services/movements';
 import ShowMovements from './ShowMovements';
 import CreateMovement from './CreateMovement';
 import MovementDetail from './MovementDetail';

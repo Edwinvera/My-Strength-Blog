@@ -6,7 +6,7 @@ export default function ShowMovements(props) {
     <div>
       <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
-        <p key={lifts.id}>{lifts.name}</p>
+        <Link to={`/movements/${lifts.id}`} key={lifts.id}>{lifts.name}</Link>
       ))}
       <Link to='/movements/new'><button>Create</button></Link>
     </div>
