@@ -14,7 +14,7 @@ export default function Header(props) {
 
   return (
     <header>
-      <h1>My Strength Blog</h1>
+      <Link to='/'><h1>My Strength Blog</h1></Link>
       {
         props.currentUser ? (
           <>

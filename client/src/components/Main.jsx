@@ -6,6 +6,7 @@ import Register from './Register';
 import ShowMovements from './ShowMovements';
 import CreateMovement from './CreateMovement';
 import MovementDetail from './MovementDetail';
+import UpdateMovement from './UpdateMovement';
 
 export default function Main(props) {
   const { setCurrentUser } = props;
@@ -40,6 +41,7 @@ export default function Main(props) {
       <Route exact path='/movements' render={() => (
         <ShowMovements
           movements={movements}
+          setMovements={setMovements}
         />
       )} />
 
@@ -50,9 +52,16 @@ export default function Main(props) {
           movements={movements}
         />
       )} />
-      <Route path='/movements/:id' render={(props) => (
+      <Route exact path='/movements/:id' render={(props) => (
         <MovementDetail
           {...props}
+        />
+      )} />
+      <Route path='/movements/:id/edit' render={(props) => (
+        <UpdateMovement
+          {...props}
+          movements={movements}
+          setMovements={setMovements}
         />
       )} />
     </main>
