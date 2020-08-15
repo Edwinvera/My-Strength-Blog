@@ -1,0 +1,10 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 15px 10px;
+}
+
+.login-button {
+  width: 10%;
+}

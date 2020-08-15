@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { loginUser } from '../services/auth';
+import { loginUser } from '../../services/auth';
+import './Login.css'
 
 export default function Login(props) {
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ export default function Login(props) {
   }
 
   return (
-      <form onSubmit={handleSubmit}>
+      <form className='login-form' onSubmit={handleSubmit}>
         <h3>Login</h3>
         <label>
           Username:
@@ -44,7 +45,7 @@ export default function Login(props) {
           onChange={handleChange}
           />
         </label>
-        <button>Submit</button>
+        <button className='login-button'>Submit</button>
         <Link to="/register">Start Strong! Register Here</Link>
       </form>
   )
