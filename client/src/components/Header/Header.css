@@ -12,11 +12,25 @@
   color: #D8E4FF;
 }
 
+.header-links {
+  display: flex;
+  justify-content: space-around;
+}
+
 .add-move-link:hover {
   color: #D8E4FF;
 }
 
 .logout-button {
-  margin: 0 auto;
-  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  width: 6%;
+}
+
+.user-toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

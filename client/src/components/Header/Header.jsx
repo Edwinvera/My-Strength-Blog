@@ -22,10 +22,10 @@ export default function Header(props) {
       <Link style={{ textDecoration: "none" }} to='/'><h1>My Strength Blog</h1></Link>
       {
         props.currentUser ? (
-          <>
+          <div className='user-toggle'>
             <p>{props.currentUser.username}</p>
             <button className='logout-button' onClick={handleLogout}>Logout</button>
-            </>
+          </div>
         ) : (
             <Link style={{textDecoration: "none" }} to='/login'>Login</Link>
         )
@@ -33,9 +33,10 @@ export default function Header(props) {
 
       {
         props.currentUser && (
-          <>
-            <Link className='add-move-link' style={{textDecoration: "none"}} to="/movements">Add Movement</Link>
-          </>
+          <div className= 'header-links'>
+            <Link className='add-move-link' style={{ textDecoration: "none" }} to="/movements">Add Movement</Link>
+            <Link className='add-post-link' style={{textDecoration: "none"}} to="/movements">Add Post</Link>
+          </div>
         )
       }
     </header>
