@@ -8,3 +8,7 @@
 .login-button {
   width: 10%;
 }
+
+.register-link:hover {
+  color: #D8E4FF;
+}

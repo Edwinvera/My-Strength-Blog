@@ -3,3 +3,7 @@
   justify-content: space-between;
   margin: 15px 10px;
 }
+
+.header h1:hover {
+  color: #D8E4FF;
+}

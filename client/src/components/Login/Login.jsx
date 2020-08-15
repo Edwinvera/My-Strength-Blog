@@ -46,7 +46,7 @@ export default function Login(props) {
           />
         </label>
         <button className='login-button'>Submit</button>
-        <Link to="/register">Start Strong! Register Here</Link>
+        <Link className='register-link' style={{textDecoration: "none"}} to="/register">Start Strong! Register Here</Link>
       </form>
   )
 }

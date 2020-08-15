@@ -15,7 +15,7 @@ export default function Header(props) {
 
   return (
     <header className= "header">
-      <Link to='/'><h1>My Strength Blog</h1></Link>
+      <Link style={{textDecoration: "none"}} to='/'><h1>My Strength Blog</h1></Link>
       {
         props.currentUser ? (
           <>
@@ -26,7 +26,7 @@ export default function Header(props) {
             <Link to='/login'>Login</Link>
         )
       }
-      
+
       {
         props.currentUser && (
           <>
