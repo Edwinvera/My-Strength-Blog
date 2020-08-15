@@ -5,11 +5,12 @@
 }
 
 Header {
+  width: 95%;
   border: 1px solid #131200;
 }
 
 Main {
-  width: 90%;
+  width: 97%;
   margin: 0 auto;
   border: 1px solid #131200;
 }

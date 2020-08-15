@@ -37,7 +37,7 @@ export default function Login(props) {
           />
         </label>
         <label>
-          Password:
+          Password: 
           <input
           type="password"
           name="password"
