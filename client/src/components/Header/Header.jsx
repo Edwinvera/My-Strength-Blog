@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useHistory } from 'react-router-dom'
-import { removeToken } from '../services/auth';
+import { removeToken } from '../../services/auth';
 
 export default function Header(props) {
   const history = useHistory();
@@ -13,7 +13,7 @@ export default function Header(props) {
   }
 
   return (
-    <header>
+    <header classname= "header">
       <Link to='/'><h1>My Strength Blog</h1></Link>
       {
         props.currentUser ? (
