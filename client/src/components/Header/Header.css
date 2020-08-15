@@ -11,3 +11,12 @@
 .header h1:hover {
   color: #D8E4FF;
 }
+
+.add-move-link:hover {
+  color: #D8E4FF;
+}
+
+.logout-button {
+  margin: 0 auto;
+  width: 10%;
+}

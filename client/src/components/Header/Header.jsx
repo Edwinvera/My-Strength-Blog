@@ -24,7 +24,7 @@ export default function Header(props) {
         props.currentUser ? (
           <>
             <p>{props.currentUser.username}</p>
-            <button onClick={handleLogout}>Logout</button>
+            <button className='logout-button' onClick={handleLogout}>Logout</button>
             </>
         ) : (
             <Link style={{textDecoration: "none" }} to='/login'>Login</Link>
@@ -34,7 +34,7 @@ export default function Header(props) {
       {
         props.currentUser && (
           <>
-            <Link style={{textDecoration: "none"}} to="/movements">Add Movement</Link>
+            <Link className='add-move-link' style={{textDecoration: "none"}} to="/movements">Add Movement</Link>
           </>
         )
       }
