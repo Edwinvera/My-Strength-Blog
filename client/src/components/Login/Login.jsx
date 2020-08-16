@@ -24,6 +24,8 @@ export default function Login(props) {
     props.history.push('/')
   }
 
+  
+
   return (
       <form className='login-form' onSubmit={handleSubmit}>
         <h3>Login</h3>

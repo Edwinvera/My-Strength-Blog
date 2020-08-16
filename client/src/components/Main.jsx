@@ -7,6 +7,7 @@ import ShowMovements from './ShowMovements';
 import CreateMovement from './CreateMovement';
 import MovementDetail from './MovementDetail';
 import UpdateMovement from './UpdateMovement';
+import Posts from './Posts';
 
 export default function Main(props) {
   const { setCurrentUser } = props;
@@ -63,6 +64,9 @@ export default function Main(props) {
           movements={movements}
           setMovements={setMovements}
         />
+      )} />
+      <Route path='/posts' render={() => (
+        <Posts />
       )} />
     </main>
   )
