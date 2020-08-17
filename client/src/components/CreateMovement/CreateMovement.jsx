@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { postMovement } from '../../services/movements';
+import './CreateMovement.css'
 
 export default function CreateMovement(props) {
   const [formData, setFormData] = useState({
@@ -24,17 +25,16 @@ export default function CreateMovement(props) {
   return (
     <div className='form-div'>
       <form className='create-move' onSubmit={handleSubmit}>
-        <div>
-          <h3>Create Movement</h3>
+        <h3>Create Movement</h3>
+          <div>
             <input
+              className= 'input'
               type="text"
               value={formData.name}
               onChange={handleChange}
             />
-        </div>
-        <div>
-          <button>Submit</button>
-        </div>
+            <button>Submit</button>
+          </div>
       </form>
     </div>
   )
