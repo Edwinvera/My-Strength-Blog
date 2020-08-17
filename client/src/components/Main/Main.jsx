@@ -5,7 +5,7 @@ import Login from '../Login/Login';
 import Register from '../Register/Register';
 import ShowMovements from '../ShowMovements/ShowMovements';
 import CreateMovement from '../CreateMovement/CreateMovement';
-import MovementDetail from '../MovementDetail';
+import MovementDetail from '../MovementDetail/MovementDetail';
 import UpdateMovement from '../UpdateMovement';
 import Posts from '../Posts';
 import './Main.css'
