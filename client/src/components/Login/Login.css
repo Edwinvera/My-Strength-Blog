@@ -1,7 +1,6 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: 15px 10px;
   text-align: center;
 }
@@ -9,6 +8,11 @@
 .login-button {
   margin: 0 auto;
   width: 75px;
+}
+
+.register-link {
+  margin: 15px 10px;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .register-link:hover {

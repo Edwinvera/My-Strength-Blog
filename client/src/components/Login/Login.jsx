@@ -24,28 +24,28 @@ export default function Login(props) {
     props.history.push('/')
   }
 
-
-
   return (
       <form className='login-form' onSubmit={handleSubmit}>
         <label>
-          Username:
           <input
-          type="text"
-          name="username"
-          value={formData.username}
-          onChange={handleChange}
+            type="text"
+            name="username"
+            placeholder="Username"
+            value={formData.username}
+            onChange={handleChange}
           />
         </label>
+        <br/>
         <label>
-          Password: 
           <input
-          type="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
+            type="password"
+            name="password"
+            placeholder="Password"
+            value={formData.password}
+            onChange={handleChange}
           />
         </label>
+        <br/>
         <button className='login-button'>Submit</button>
         <Link className='register-link' style={{textDecoration: "none"}} to="/register">Start Strong! Register Here</Link>
       </form>
