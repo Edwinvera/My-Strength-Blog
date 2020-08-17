@@ -1,4 +1,14 @@
 .move-list {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+
+.move-list h3 {
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  text-align: center;
 }

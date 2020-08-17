@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { destroyMovement } from '../../services/movements'
+import './ShowMovements.css'
 
 export default function ShowMovements(props) {
 
@@ -15,13 +16,14 @@ export default function ShowMovements(props) {
     <div className='move-list'>
       <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
-        <>
+        <div>
           <Link to={`/movements/${lifts.id}`} key={lifts.id}>{lifts.name}</Link>
-          <Link to={`/movements/${lifts.id}/edit` }><button>Edit</button></Link>
+          <Link to={`/movements/${lifts.id}/edit`}><button>Edit</button></Link>
           <button onClick={() => handleClick(lifts.id)}>Delete</button>
-        </>
+        </div>
       ))}
-      <Link to='/movements/new'><button>Create</button></Link>
+      <br/>
+      <Link to='/movements/new'><button className='create-button'>Create</button></Link>
     </div>
   )
 }
