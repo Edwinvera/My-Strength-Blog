@@ -1,14 +1,25 @@
 .move-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 auto;
+
 }
 
 .move-list h3 {
   text-align: center;
 }
 
+.move-list p {
+  text-align: center;
+}
+
+.edit-delete {
+  margin: 10px;
+}
+
 button {
   width: 80px;
   text-align: center;
+  margin: 5px;
 }
