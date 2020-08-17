@@ -35,7 +35,7 @@ export default function Header(props) {
         props.currentUser && (
           <div className= 'header-links'>
             <Link className='add-move-link' style={{ textDecoration: "none" }} to="/movements">Add Movement</Link>
-            <Link className='add-post-link' style={{textDecoration: "none"}} to="/posts">Add Post</Link>
+            <Link className='add-post-link' style={{textDecoration: "none"}} to="/posts">Performance Report</Link>
           </div>
         )
       }

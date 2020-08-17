@@ -17,7 +17,7 @@ export default function ShowMovements(props) {
       {props.movements.map((lifts) => (
         <>
           <Link to={`/movements/${lifts.id}`} key={lifts.id}>{lifts.name}</Link>
-          <Link to={`/movements/${lifts.id}/edit`}><button>Edit</button></Link>
+          <Link to={`/movements/${lifts.id}/edit` }><button>Edit</button></Link>
           <button onClick={() => handleClick(lifts.id)}>Delete</button>
         </>
       ))}

@@ -1,18 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NewPost from './NewPost'
 
 export default function Posts() {
-  const [postField, setPostField] = useState([])
-
-  const handlePost = post => {
-    setPostField(prevPosts => [...prevPosts, post])
-  }
 
   return (
     <div>
-      <NewPost
-        submitPost={handlePost}
-      />
+      <NewPost />
+      <div className='report-field'>
+        <h2>Session Report</h2>
+      </div>
     </div>
   )
 }

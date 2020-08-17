@@ -1,45 +1,64 @@
-import React, { useState } from 'react'
+import React, { Component } from 'react'
 
-export default function NewPost(props) {
-  const [inputTitle, setTitle] = useState('')
-  const [inputReport, setReport] = useState('')
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    props.submitPost(
-      {
-        id: Math.floor(Math.random() * 1000),
-        title: inputTitle,
-        report: inputReport
-      }
-    )
-    setTitle('');
-    setReport('');
+class NewPost extends Component {
+  constructor() {
+    super()
+    this.state = {
+      weight: '',
+      reps: '',
+      sets: '',
+      volume: '',
+      oneRepMex: ''
+    }
   }
 
-  return (
-    <div className='input-field'>
-      <form onSubmit={handleSubmit}>
-        <input
-          name='title'
-          placeholder='Title'
-          type='text'
-          value={inputTitle}
-          onChange={event => {
-            setTitle(event.target.value);
-          }}
-        />
-        <input
-          name='report'
-          placeholder='Report'
-          type='text'
-          value={inputReport}
-          onChange={event => {
-            setReport(event.target.value);
-          }}
-        />
-        <button type='submit'>Submit</button>
-      </form>
-    </div>
-  )
+  calcVolume() {
+    
+  }
+
+  calcOneRepMax() {
+   
+  }
+
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <div className='input-field'>
+        <form onSubmit={this.handleSubmit}>
+          <input
+            name='weight'
+            placeholder='Enter Weight'
+            type='text'
+            value={this.state.weight}
+            // onChange={}
+          />
+          <input
+            name='reps'
+            placeholder='Enter Reps'
+            type='text'
+            value={this.state.reps}
+            // onChange={}
+          />
+          <input
+            name='sets'
+            placeholder='Enter Sets'
+            type='text'
+            value={this.state.sets}
+            // onChange={}
+          />
+          <button type='submit'>Submit</button>
+        </form>
+        <div>
+          <h2>{this.state.volume}</h2>
+          <h2>{this.state.oneRepMex}</h2>
+        </div>
+      </div>
+    )
+  }
 }
+
+export default NewPost
