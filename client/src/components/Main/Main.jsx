@@ -7,8 +7,9 @@ import ShowMovements from '../ShowMovements/ShowMovements';
 import CreateMovement from '../CreateMovement/CreateMovement';
 import MovementDetail from '../MovementDetail/MovementDetail';
 import UpdateMovement from '../UpdateMovement/UpdateMovement';
-import Posts from '../Posts';
+// import Results from '../Results';
 import './Main.css'
+import NewPost from '../NewPost/NewPost';
 
 export default function Main(props) {
   const { setCurrentUser } = props;
@@ -67,7 +68,7 @@ export default function Main(props) {
         />
       )} />
       <Route path='/posts' render={() => (
-        <Posts />
+        <NewPost />
       )} />
     </main>
   )
