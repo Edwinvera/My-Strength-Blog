@@ -27,15 +27,15 @@ export default function Header(props) {
             <button className='logout-button' onClick={handleLogout}>Logout</button>
           </div>
         ) : (
-            <Link style={{textDecoration: "none" }} to='/login'>Login</Link>
+            <Link style={{textDecoration: "none" }} to='/login'><h3>Login</h3></Link>
         )
       }
 
       {
         props.currentUser && (
           <div className= 'header-links'>
-            <Link className='add-move-link' style={{ textDecoration: "none" }} to="/movements">Add Movement</Link>
-            <Link className='add-post-link' style={{textDecoration: "none"}} to="/posts">Performance Report</Link>
+            <h3><Link className='add-move-link' style={{ textDecoration: "none" }} to="/movements">Add Movement</Link></h3>
+            <h3><Link className='add-post-link' style={{textDecoration: "none"}} to="/posts">Performance Report</Link></h3>
           </div>
         )
       }

@@ -11,7 +11,7 @@ class NewPost extends Component {
       oneRepMex: ''
     }
   }
-
+  
   calcVolume() {
     
   }
@@ -20,9 +20,13 @@ class NewPost extends Component {
    
   }
 
-
   handleSubmit = (event) => {
-    event.preventDefault();
+    // event.preventDefault();
+    this.setState({
+      // weight: ,
+      // reps: ,
+      // sets: ,
+    })
   }
 
   render() {
@@ -34,28 +38,21 @@ class NewPost extends Component {
             placeholder='Enter Weight'
             type='text'
             value={this.state.weight}
-            // onChange={}
           />
           <input
             name='reps'
             placeholder='Enter Reps'
             type='text'
             value={this.state.reps}
-            // onChange={}
           />
           <input
             name='sets'
             placeholder='Enter Sets'
             type='text'
             value={this.state.sets}
-            // onChange={}
           />
           <button type='submit'>Submit</button>
         </form>
-        <div>
-          <h2>{this.state.volume}</h2>
-          <h2>{this.state.oneRepMex}</h2>
-        </div>
       </div>
     )
   }

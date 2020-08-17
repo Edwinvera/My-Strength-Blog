@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Route } from 'react-router-dom';
-import { readAllMovements } from '../services/movements';
-import Login from './Login/Login';
-import Register from './Register';
-import ShowMovements from './ShowMovements/ShowMovements';
-import CreateMovement from './CreateMovement/CreateMovement';
-import MovementDetail from './MovementDetail';
-import UpdateMovement from './UpdateMovement';
-import Posts from './Posts';
+import { readAllMovements } from '../../services/movements';
+import Login from '../Login/Login';
+import Register from '../Register';
+import ShowMovements from '../ShowMovements/ShowMovements';
+import CreateMovement from '../CreateMovement/CreateMovement';
+import MovementDetail from '../MovementDetail';
+import UpdateMovement from '../UpdateMovement';
+import Posts from '../Posts';
+import './Main.css'
 
 export default function Main(props) {
   const { setCurrentUser } = props;
@@ -24,7 +25,7 @@ export default function Main(props) {
   }
 
   return (
-    <main>
+    <main className='main-div'>
       <Route path='/login' render={(props) => (
         <Login
           {...props}

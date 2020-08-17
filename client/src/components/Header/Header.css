@@ -13,6 +13,10 @@
   color: #FBFBFF;
 }
 
+.header h3:hover {
+  color: #FBFBFF;
+}
+
 .header-links {
   display: flex;
   justify-content: space-around;
@@ -29,9 +33,9 @@
 .logout-button {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   text-align: center;
-  width: 6%;
+  width: 8%;
 }
 
 .user-toggle {

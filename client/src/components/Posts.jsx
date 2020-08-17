@@ -5,8 +5,11 @@ export default function Posts() {
 
   return (
     <div>
-      <NewPost />
-      <div className='report-field'>
+      <div>
+        <NewPost />
+      </div>
+      
+      <div>
         <h2>Session Report</h2>
       </div>
     </div>
