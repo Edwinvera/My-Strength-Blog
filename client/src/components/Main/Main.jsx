@@ -27,6 +27,7 @@ export default function Main(props) {
 
   return (
     <main className='main-div'>
+      
       <Route path='/login' render={(props) => (
         <Login
           {...props}
