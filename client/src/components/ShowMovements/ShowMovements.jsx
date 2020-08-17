@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { destroyMovement } from '../services/movements'
+import { destroyMovement } from '../../services/movements'
 
 export default function ShowMovements(props) {
 
@@ -12,7 +12,7 @@ export default function ShowMovements(props) {
   }
 
   return (
-    <div>
+    <div className='move-list'>
       <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
         <>

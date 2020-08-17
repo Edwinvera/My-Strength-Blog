@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import { readAllMovements } from '../services/movements';
 import Login from './Login/Login';
 import Register from './Register';
-import ShowMovements from './ShowMovements';
+import ShowMovements from './ShowMovements/ShowMovements';
 import CreateMovement from './CreateMovement/CreateMovement';
 import MovementDetail from './MovementDetail';
 import UpdateMovement from './UpdateMovement';
