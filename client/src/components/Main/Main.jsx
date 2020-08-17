@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Route } from 'react-router-dom';
 import { readAllMovements } from '../../services/movements';
 import Login from '../Login/Login';
-import Register from '../Register';
+import Register from '../Register/Register';
 import ShowMovements from '../ShowMovements/ShowMovements';
 import CreateMovement from '../CreateMovement/CreateMovement';
 import MovementDetail from '../MovementDetail';
