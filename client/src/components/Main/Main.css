@@ -3,10 +3,5 @@
   flex-direction: column;
   margin: 0 auto;
   background: #1F1F1F;
-  /* min-height: 100%; */
-  overflow: -moz-hidden-unscrollable;
 }
 
-main {
-  background-color: #1F1F1F;
-}
