@@ -92,16 +92,16 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-| CreateMpvement | functional |   n   |   y   | _Create custom movement screen._ |
-|    Header      | functional |   n  |   n   | _._ |
-|   Login   | class |   y   |   n   | _._ |
-|  Main  | class |   y   |   y   | _._ |
-|  MovementDetail| class |   y   |   y   | _._. |
-|  NewPost| class |   y   |   y   | _._|
-|  Register  | class |   y   |   y   | _._ |
-|  Results | class |   y   |   y   | _._ |
-|  ShowMovements | class |   y   |   y   | _._ |
-|  UpdateMovement | class |   y   |   y   | _._ |
+|CreateMpvement| functional |   n   |   y   | _Create custom movement screen._      |
+|    Header    | functional |   n   |   y   | _Links and heading._                  |
+|    Login     | functional |   y   |   y   | _Login controller._                   |
+|    Main      | functional |   y   |   y   | _Holds all routes._                   |
+|MovementDetail|   class    |   y   |   y   | _Maps all of the movements, muscles._ |
+|   NewPost    |   class    |   y   |   n   | _Calculators for performance report._ |
+|   Register   | functional |   y   |   y   | _Register controller._                |
+|   Results    | functional |   n   |   y   | _Displays performance results._       |
+|ShowMovements | functional |   n   |   n   | _Maps all of the movements for user._ |
+|UpdateMovement| functional |   y   |   y   | _Edit movements._                     |
 
 
 #### Time Estimates
