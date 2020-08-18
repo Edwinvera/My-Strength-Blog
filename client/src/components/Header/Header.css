@@ -50,3 +50,7 @@
   align-items: flex-end;
   font-size: 20px;
 }
+
+.user-toggle p{
+  color: white;
+}
