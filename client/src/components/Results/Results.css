@@ -1,0 +1,35 @@
+.results-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  color: #709BFF;
+}
+
+h1 {
+  font-size: 60px;
+  color: #709BFF;
+}
+
+p {
+  font-size: 60px;
+  color: #709BFF;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {
+      font-size: 50px;
+      color: #709BFF;
+    }
+
+    p {
+      font-size: 30px;
+      color: #709BFF;
+      text-align: end;
+    }
+  }

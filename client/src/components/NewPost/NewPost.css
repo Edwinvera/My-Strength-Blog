@@ -1,0 +1,36 @@
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px;
+}
+
+input {
+  margin: 10px;
+  width: 90px;
+}
+
+button {
+  width: 80px;;
+}
+
+.calc-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .calc-div {
+      display: flex;
+    }
+
+    .form-div {
+      margin: 10px;
+    }
+  }

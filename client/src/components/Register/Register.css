@@ -1,0 +1,33 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 75px 10px;
+  margin-bottom: 50vh;
+}
+
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+  color: #709BFF;
+}
+
+.register-form input {
+  width: 30%;
+  text-align: center;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .register-form input {
+      width: 75%;
+    }
+
+    .register-form h3 {
+      font-size: 30px;
+    }
+  }
