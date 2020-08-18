@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.login-form input {
+  width: 25%;
+  text-align: center;
+}
+
 .login-button {
   margin: 0 auto;
   width: 75px;
