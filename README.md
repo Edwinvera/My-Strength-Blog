@@ -79,12 +79,10 @@ src
       |___ShowMovements
       |___Update Movement
 |__ services/
-      |__ Main_Login.jsx
-      |__ Register.jsx
-      |__ Create_Post.jsx
-      |__ Add_Accessory.jsx
-      |__ Edit_Posts.jsx
-      |__ User_Posts.jsx
+      |__ api-helper.js
+      |__ auth.js
+      |__ movements.js
+      |__ muscles.js
 
 ```
 
