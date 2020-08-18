@@ -16,7 +16,6 @@ export default function Header(props) {
   return (
     
     <header className="header">
-
       <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"></link>
       
       <Link style={{ textDecoration: "none" }} to='/'><h1>My Strength Blog</h1></Link>
