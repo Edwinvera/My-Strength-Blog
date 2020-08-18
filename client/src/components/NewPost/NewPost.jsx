@@ -22,9 +22,10 @@ class NewPost extends Component {
   }
 
   calcOneRepMax() {
+    let weight = this.state.weight
     let volume = this.state.weight * this.state.reps
     let maxHelp = volume * 0.033
-    let oneRepMax = maxHelp + this.state.weight
+    let oneRepMax = maxHelp + weight
     this.setState({
       oneRepMax: parseInt(oneRepMax)
     })

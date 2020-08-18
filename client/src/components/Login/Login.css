@@ -25,6 +25,7 @@
   color: #FBFBFF;
 }
 
+/* iPhone Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -38,4 +39,21 @@
     .login-form input {
       width: 75%;
     }
+}
+
+/* iPad Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .register-link {
+      margin-top: 50px;
+      font-size: 40px;
+    }
+
+    .login-form input {
+      width: 45%;
+    }
+
 }
