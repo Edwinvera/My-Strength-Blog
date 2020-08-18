@@ -110,13 +110,13 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Setup Backend       |    H     |     8 hrs      |     24 hrs     |    24 hrs    |
-| Setup JSON          |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
-| Setup Components    |    H     |     24 hrs     |     0 hrs     |    0 hrs    |
-| Setup Frontend CRUD |    H     |     12 hrs     |     8 hrs     |    8 hrs    |
-| Styling             |    M     |     12 hrs     |     0 hrs     |    0 hrs    |
-| Testing             |    H     |     5 hrs      |     0 hrs     |    0 hrs    |
-| Total Time          |          |     66 hrs     |     32 hrs     |    32 hrs    |
+| Setup Backend       |    H     |     8 hrs      |     24 hrs    |    24 hrs   |
+| Setup JSON          |    H     |     5 hrs      |     1 hrs     |    1 hrs    |
+| Setup Components    |    H     |     24 hrs     |     24 hrs    |    24 hrs   |
+| Setup Frontend CRUD |    H     |     12 hrs     |     12 hrs    |    12 hrs   |
+| Styling             |    M     |     12 hrs     |     24 hrs    |    24 hrs   |
+| Testing             |    H     |     5 hrs      |     2 hrs     |    2 hrs    |
+| Total Time          |          |     66 hrs     |     87 hrs    |    87 hrs   |
 
 <br>
 
