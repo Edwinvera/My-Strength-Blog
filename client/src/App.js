@@ -23,6 +23,7 @@ function App() {
         currentUser={currentUser}
         setCurrentUser={setCurrentUser}
       />
+      <h1>Test</h1>
       <Main
         setCurrentUser={setCurrentUser}
       />

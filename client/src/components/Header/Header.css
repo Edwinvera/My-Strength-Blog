@@ -10,8 +10,12 @@
   color: white;
 }
 
+h1 {
+  margin: 0 auto;
+}
+
 .header h1:hover {
-  color: #FBFBFF;
+  color: black;
 }
 
 .header h3:hover {
@@ -52,4 +56,18 @@
 
 .user-toggle p{
   color: white;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .header h1 {
+      font-size: 50px;
+    }
+
+    .header-links h3 {
+      font-size: 20px;
+    }
 }
