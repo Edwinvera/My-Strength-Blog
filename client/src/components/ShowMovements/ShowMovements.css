@@ -37,4 +37,8 @@ button {
     .create-button {
       margin-bottom: 150px;
     }
+
+    .move-list h3 {
+      font-size: 45px;
+    }
   }

@@ -66,18 +66,19 @@ https://whimsical.com/5tgWLq6cct2YBse3Dy6fCi
 ``` structure
 
 src
-|__ assets/
-      |__ images
-      |__ mockups
 |__ components/
-      |__ Header.jsx
-      |___Login.jsx
-      |___Main.jsx
-      |___AddEditAcc.jsx
-      |___Str_Dropdown.jsx
-      |___Acc_Dropdown.jsx
-      |___Logout_Btn.jsx
-|__ screens/
+      |__ CreateMovement
+      |___Footer
+      |___Header
+      |___Login
+      |___Main
+      |___MovementDetail
+      |___NewPost
+      |___Register
+      |___Results
+      |___ShowMovements
+      |___Update Movement
+|__ services/
       |__ Main_Login.jsx
       |__ Register.jsx
       |__ Create_Post.jsx

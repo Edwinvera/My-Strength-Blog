@@ -27,7 +27,7 @@ function App() {
         setCurrentUser={setCurrentUser}
       />
       <Footer />
-    </div>
+      </div>
   );
 }
 

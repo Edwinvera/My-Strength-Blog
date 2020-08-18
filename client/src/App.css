@@ -1,0 +1,8 @@
+Header {
+  overflow: hidden;
+}
+
+App {
+  background-image: url(/images/garage.jpg);
+  background-size: cover;
+}
