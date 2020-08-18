@@ -92,14 +92,16 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | class |   n   |   n   | _The header will contain the navigation and logo._               |
-|    Login     | class |   y   |   n   | _The login will allow user to sign in to their account._         |
-|   Register   | class |   y   |   n   | _The register component will allow new users start an account._  |
-|  AddEditAcc  | class |   y   |   y   | _This will let the user add and edit accessory._                 |
-|  Str_Dropdown| class |   y   |   y   | _Will hold opitons for choosing main movement for that day._.    |
-|  Acc_Dropdown| class |   y   |   y   | _Will hold opitons for choosing accessory movement for that day._|
-|  Logout_Btn  | class |   y   |   y   | _Give use ability to logout._                                    |
-|  Profile_Btn | class |   y   |   y   | _Give use ability to logout._                                    |
+| CreateMpvement | functional |   n   |   y   | _Create custom movement screen._ |
+|    Header      | functional |   n  |   n   | _._ |
+|   Login   | class |   y   |   n   | _._ |
+|  Main  | class |   y   |   y   | _._ |
+|  MovementDetail| class |   y   |   y   | _._. |
+|  NewPost| class |   y   |   y   | _._|
+|  Register  | class |   y   |   y   | _._ |
+|  Results | class |   y   |   y   | _._ |
+|  ShowMovements | class |   y   |   y   | _._ |
+|  UpdateMovement | class |   y   |   y   | _._ |
 
 
 #### Time Estimates

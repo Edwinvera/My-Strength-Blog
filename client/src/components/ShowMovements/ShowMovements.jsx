@@ -16,8 +16,8 @@ export default function ShowMovements(props) {
     <div className='move-list'>
       <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
-        <div>
-          <Link to={`/movements/${lifts.id}`} style={{textDecoration: "none" }} key={lifts.id}><p>{lifts.name}</p></Link>
+        <div key={lifts.id}>
+          <Link to={`/movements/${lifts.id}`} style={{textDecoration: "none" }}><p>{lifts.name}</p></Link>
           <div className='edit-delete'>
             <Link to={`/movements/${lifts.id}/edit`}><button>Edit</button></Link>
             <button onClick={() => handleClick(lifts.id)}>Delete</button>
