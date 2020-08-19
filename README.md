@@ -133,7 +133,7 @@ https://imgur.com/oXPjZOn
 ***
 
 ## Code Showcase
-``
+```
 <div className='move-list'>
       <h3>Add Strength Exercise</h3>
       {props.movements.map((lifts) => (
@@ -148,7 +148,7 @@ https://imgur.com/oXPjZOn
       <br/>
       <Link to='/movements/new'><button className='create-button'>Create</button></Link>
     </div>
-``
+```
 ## Code Issues & Resolutions
 
 - My biggest issue was the way that I started. I set my tables all wrong. Something I'd definitely come back to when a passing grade isn't on the line. Overall, I learned a lot in the whole process.
