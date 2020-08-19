@@ -134,9 +134,22 @@ https://imgur.com/oXPjZOn
 ***
 
 ## Code Showcase
-
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
+``
+<div className='move-list'>
+      <h3>Add Strength Exercise</h3>
+      {props.movements.map((lifts) => (
+        <div key={lifts.id}>
+          <Link to={`/movements/${lifts.id}`} style={{textDecoration: "none" }}><p>{lifts.name}</p></Link>
+          <div className='edit-delete'>
+            <Link to={`/movements/${lifts.id}/edit`}><button>Edit</button></Link>
+            <button onClick={() => handleClick(lifts.id)}>Delete</button>
+          </div>
+        </div>
+      ))}
+      <br/>
+      <Link to='/movements/new'><button className='create-button'>Create</button></Link>
+    </div>
+``
 ## Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution.
+- My biggest issue was the way that I started. I set my tables all wrong. Something I'd definitely come back to when a passing grade isn't on the line. Overall, I learned a lot in the whole process.
