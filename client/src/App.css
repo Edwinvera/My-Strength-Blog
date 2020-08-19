@@ -1,4 +1,17 @@
 body {
-  background: url(/images/garage.jpg);
+  background: url(/images/garage.jpg) no-repeat;
   background-size: cover;
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    body {
+      background: url(/images/garage.jpg) no-repeat;
+      background-size: 140%;
+    }
 }
