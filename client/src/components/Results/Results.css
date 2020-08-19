@@ -33,3 +33,24 @@ p {
       text-align: end;
     }
   }
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .results-div {
+      margin-bottom: 100px;
+    }
+    
+    h1 {
+      font-size: 40px;
+      color: #709BFF;
+    }
+
+    p {
+      font-size: 30px;
+      color: #709BFF;
+      text-align: end;
+    }
+}
