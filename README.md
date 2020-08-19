@@ -21,14 +21,14 @@ A website that allows users to track and log workouts. Users will also be able t
 
 ## Overview
 
-_**My Strength Blog** is Is a site where users will be able to track their powerlifting sessions and add notes and reflections on previous training sessions. Users wil lalso have the ability to add custom exercises._
+_**Strength HQ** is a site where users will be able to track their powerlifting sessions and add notes and reflections on previous training sessions. Users wil lalso have the ability to add custom exercises._
 
 
 <br>
 
 ## MVP
 
-_The **My Strength Blog** MVP Will give users the ability to add, edit, and delete workouts. They'll be able to post sessions and create a collection of posts of past workouts._
+_Users the ability to add, edit, and delete workouts. They'll be able to post sessions and create a collection of posts of past workouts._
 
 <br>
 
@@ -87,8 +87,6 @@ src
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |CreateMpvement| functional |   n   |   y   | _Create custom movement screen._      |
@@ -104,8 +102,6 @@ src
 
 
 #### Time Estimates
-
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
