@@ -68,7 +68,6 @@ https://whimsical.com/5tgWLq6cct2YBse3Dy6fCi
 src
 |__ components/
       |__ CreateMovement
-      |___Footer
       |___Header
       |___Login
       |___Main
